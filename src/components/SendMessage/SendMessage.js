@@ -7,6 +7,7 @@ import '../SendMessage/SendMessage.less'
 /**
  * @component
  * @description форма для отправки сообщения
+ * @namespace SendMessage
  */
 
 const SendMessage = () => {
@@ -17,7 +18,7 @@ const SendMessage = () => {
     /**
     * @function
     * @description срабатывает по нажатию кнопки отправить. Отправляет введенные данные на сервер
-    * @returns {Element}
+    * @memberof SendMessage
     */
 
     function onSubmit(e) {
