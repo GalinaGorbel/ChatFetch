@@ -1,0 +1,17 @@
+html {
+  font-family: Roboto, sans-serif;
+}
+.messageBox {
+  border-radius: 12px;
+  box-shadow: inset 0 0 6px black;
+  padding: 1rem;
+  margin: 2rem auto;
+  max-width: 40rem;
+}
+.messageBox h3 {
+  font-size: 1.25rem;
+  margin: 0.5rem 0;
+}
+.messageBox p {
+  margin: 0.5rem 0;
+}
